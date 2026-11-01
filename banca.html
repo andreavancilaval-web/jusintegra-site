@@ -340,7 +340,7 @@
       $c.append(bar);
 
       const filhos = FILHOS[pastaAtual];
-      const indice = filhos.find(i => ITENS[i].tipo !== "pasta" && /^0*\s*-?\s*[ií]ndice\b/i.test(norm(ITENS[i].titulo).replace(/^0+\s*-\s*/, "")));
+      const indice = filhos.find(i => ITENS[i].tipo !== "pasta" && /^0+\s*-\s*indice$/.test(norm(ITENS[i].titulo)));
       if (indice != null) {
         const a = el("a", "indice"); a.href = ITENS[indice].url; a.target = "_blank"; a.rel = "noopener noreferrer";
         const ic = el("span", "indice-ic"); ic.append(icone("list-ordered"));
