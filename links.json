@@ -1,0 +1,65 @@
+{
+  "perfil": {
+    "nome": "Dr. Seu Nome",
+    "oab": "OAB/SP 00.000",
+    "bio": "Advocacia com atendimento humanizado nas áreas trabalhista, família e civil."
+  },
+  "links": [
+    {
+      "titulo": "Agendar consulta pelo WhatsApp",
+      "descricao": "Resposta em horário comercial",
+      "url": "https://wa.me/5511999999999",
+      "categoria": "Contato",
+      "palavras": ["whatsapp", "consulta", "atendimento", "agendar", "falar", "contato"]
+    },
+    {
+      "titulo": "Direito Trabalhista",
+      "descricao": "Demissão, horas extras, verbas rescisórias, assédio",
+      "url": "https://seusite.com/trabalhista",
+      "categoria": "Áreas de atuação",
+      "palavras": ["clt", "emprego", "demissao", "rescisao", "funcionario", "salario", "fgts", "ferias", "horas extras"]
+    },
+    {
+      "titulo": "Direito de Família",
+      "descricao": "Divórcio, pensão alimentícia, guarda, união estável",
+      "url": "https://seusite.com/familia",
+      "categoria": "Áreas de atuação",
+      "palavras": ["divorcio", "pensao", "guarda", "casamento", "separacao", "uniao estavel", "alimentos"]
+    },
+    {
+      "titulo": "Inventário e Sucessões",
+      "descricao": "Partilha de bens, testamento, herança",
+      "url": "https://seusite.com/sucessoes",
+      "categoria": "Áreas de atuação",
+      "palavras": ["inventario", "heranca", "partilha", "testamento", "falecimento", "sucessao"]
+    },
+    {
+      "titulo": "Direito Previdenciário",
+      "descricao": "Aposentadoria, auxílio, BPC, revisão de benefícios",
+      "url": "https://seusite.com/previdenciario",
+      "categoria": "Áreas de atuação",
+      "palavras": ["inss", "aposentadoria", "auxilio", "beneficio", "bpc", "revisao", "pensao por morte"]
+    },
+    {
+      "titulo": "Consumidor e Cobranças",
+      "descricao": "Cobranças indevidas, negativação, produtos com defeito",
+      "url": "https://seusite.com/consumidor",
+      "categoria": "Áreas de atuação",
+      "palavras": ["cdc", "negativado", "spc", "serasa", "defeito", "garantia", "banco", "cobranca"]
+    },
+    {
+      "titulo": "Simulador de Honorários",
+      "descricao": "Estimativa inicial, sem compromisso",
+      "url": "https://seusite.com/honorarios",
+      "categoria": "Ferramentas",
+      "palavras": ["valor", "preco", "custo", "orcamento", "quanto custa"]
+    },
+    {
+      "titulo": "Instagram",
+      "descricao": "Conteúdo jurídico informativo",
+      "url": "https://instagram.com/seuperfil",
+      "categoria": "Redes",
+      "palavras": ["instagram", "redes", "dicas", "video"]
+    }
+  ]
+}

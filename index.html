@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jusintegra</title>
+  <meta name="description" content="Links, serviços e busca inteligente por área de atuação.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="perfil">
+      <div class="avatar" id="avatar">JI</div>
+      <h1 id="nome">Nome do Advogado</h1>
+      <p class="oab" id="oab">OAB/UF 00000</p>
+      <p class="bio" id="bio">Descrição curta do seu trabalho.</p>
+    </header>
+
+    <section class="busca">
+      <label for="campo-busca" class="sr-only">Buscar por área ou serviço</label>
+      <input
+        type="search"
+        id="campo-busca"
+        placeholder="Ex.: demissão, divórcio, inventário, aposentadoria..."
+        autocomplete="off"
+      >
+      <p class="dica">Busca inteligente: entende sinônimos e pequenos erros de digitação.</p>
+    </section>
+
+    <section id="resultados" class="resultados" aria-live="polite"></section>
+
+    <footer class="rodape">
+      <p class="aviso">
+        Conteúdo informativo. Não constitui aconselhamento jurídico.
+        Cada caso exige análise individual.
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
