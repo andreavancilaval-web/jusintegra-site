@@ -299,7 +299,7 @@ a:focus-visible{outline:3px solid #F2B84B;outline-offset:3px}
 
 <script>
 // Links de checkout da Cakto: preencha quando os produtos estiverem criados.
-var CHECKOUT = { basico: "", vip: "" };
+var CHECKOUT = { basico: "https://pay.cakto.com.br/ikqqs78_1340463", vip: "https://pay.cakto.com.br/36q2h6i" };
 document.querySelectorAll("[data-checkout]").forEach(function (a) {
   var url = CHECKOUT[a.getAttribute("data-checkout")];
   if (url) { a.href = url; a.target = "_blank"; a.rel = "noopener"; }
