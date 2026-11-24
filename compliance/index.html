@@ -312,5 +312,27 @@ a:focus-visible{outline:3px solid #F2B84B;outline-offset:3px}
 
 </div>
 
+<style>
+#wpp-btn{position:fixed;right:20px;bottom:20px;z-index:1000;width:60px;height:60px;border-radius:50%;border:0;background:#25D366;color:#fff;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center}
+#wpp-btn svg{width:32px;height:32px}
+#wpp-pop{position:fixed;right:20px;bottom:92px;z-index:1000;width:300px;max-width:calc(100vw - 40px);background:#fff;color:#10282A;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.25);padding:20px;font-family:"Barlow",system-ui,sans-serif;display:none}
+#wpp-pop.open{display:block}
+#wpp-pop h3{margin:0 0 6px;font-size:19px;color:#0B2E30}
+#wpp-pop p{margin:0 0 16px;font-size:15px;line-height:1.5;color:#2F474A}
+#wpp-pop a{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:999px;background:#25D366;color:#fff;font-weight:700;font-size:16px;text-decoration:none}
+#wpp-close{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;line-height:1;color:#6B8587;cursor:pointer}
+</style>
+<div id="wpp-pop" role="dialog" aria-label="Suporte pelo WhatsApp">
+<button id="wpp-close" aria-label="Fechar">&times;</button>
+<h3>Precisa de ajuda?</h3>
+<p>Tire suas dúvidas sobre o Workshop Compliance 2027 e os ingressos com a nossa equipe.</p>
+<a href="https://wa.me/556131422953?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20Workshop%20Compliance%202027." target="_blank" rel="noopener">Falar no WhatsApp</a>
+</div>
+<button id="wpp-btn" aria-label="Suporte pelo WhatsApp"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.3.6 4.5 1.8 6.4L3 29l7-1.8c1.8 1 3.9 1.5 6 1.5 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.6C5.3 10 10.1 5.3 16 5.3S26.7 10 26.7 15.8 21.9 26.4 16 26.4zm5.9-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2s0-.5.1-.6l.5-.6c.2-.2.2-.4.3-.6s0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.3c.2.2 2.3 3.5 5.6 4.9 2.8 1.1 3.3.9 3.9.8s1.9-.8 2.2-1.5.3-1.4.2-1.5-.3-.2-.6-.4z"/></svg></button>
+<script>
+(function(){var b=document.getElementById('wpp-btn'),p=document.getElementById('wpp-pop');
+b.onclick=function(){p.classList.toggle('open')};
+document.getElementById('wpp-close').onclick=function(){p.classList.remove('open')};})();
+</script>
 </body>
 </html>
